@@ -1,0 +1,62 @@
+.NGABANNER{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.NGANEWSBANNER{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+.NGAWELCOME{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.NGATEAMS{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ARTICLETITLE{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.ARTICLEDESCRIPTION{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.ARTICLECARD{
+    border: 1px solid #bbbbbb;
+}
+
+.card-footer{
+    background-color: #bbbbbb;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.ARTICLEBUTTON{
+    background-color: #bbbbbb;
+    border: none;
+    color: black;
+    transition: background-color 0.5s ease;
+    padding: 0.3rem 7rem;
+}
+
+.ARTICLEBUTTON:hover{
+    background-color: #868686;
+}
+
+.TEAMSBUTTON{
+    background: #dddbdb;
+    border: none;
+    color: black;
+    padding: 0.3rem 7rem;
+}
+
+.TEAMSBUTTON:hover{
+    background-color: #868686;
+}
