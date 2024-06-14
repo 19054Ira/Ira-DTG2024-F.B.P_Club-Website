@@ -60,3 +60,25 @@
 .TEAMSBUTTON:hover{
     background-color: #868686;
 }
+
+.ARTICLE1HEADER{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+
+.ARTICLE1MAINPHOTO:hover{
+    transform: scale(1.1);
+}
+
+.ARTICLE1MAINPHOTO{
+transition: transform 0.4s ease;
+}
+
+.ARTICLE1CONTENT{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ARTICLE1AUTHOR{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
