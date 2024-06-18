@@ -61,24 +61,24 @@
     background-color: #868686;
 }
 
-.ARTICLE1HEADER{
+.ARTICLEHEADER{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #e2e2e2;
     padding: 10px;
 }
 
-.ARTICLE1MAINPHOTO:hover{
+.ARTICLEMAINPHOTO:hover{
     transform: scale(1.1);
 }
 
-.ARTICLE1MAINPHOTO{
+.ARTICLEMAINPHOTO{
 transition: transform 0.4s ease;
 }
 
-.ARTICLE1CONTENT{
+.ARTICLECONTENT{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.ARTICLE1AUTHOR{
+.ARTICLEAUTHOR{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
