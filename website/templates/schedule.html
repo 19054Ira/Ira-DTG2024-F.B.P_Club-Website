@@ -1,5 +1,40 @@
 {% extends "base.html" %}
 {% block title %}Article1{% endblock %}
 {% block content %}
-Testing
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Game Schedule</title>
+    <link rel="stylesheet" href="static/assets/main.css" />
+</head>
+<body>
+    <div class="schedule-container">
+        <header class="schedule-header">
+            <h1><b>GAME SCHEDULE</b></h1>
+        </header>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Home Team</th>
+                    <th>Away Team</th>
+                    <th>Location</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-05-01</td>
+                    <td>Team A</td>
+                    <td>Team B</td>
+                    <td>Stadium 1</td>
+                    <td>Score</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
 {% endblock %}
