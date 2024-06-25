@@ -82,3 +82,39 @@ transition: transform 0.4s ease;
 .ARTICLEAUTHOR{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.schedulebody{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.schedule-container{
+    background-color: #e6e6e6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.schedule-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.schedule-header h1{
+    font-size: 50px;
+}
+
+.schedule-table thead {
+    background-color: #f8981e;
+    color: #000000;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #a7a7a7;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
