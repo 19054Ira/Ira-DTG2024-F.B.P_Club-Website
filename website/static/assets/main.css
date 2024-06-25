@@ -83,11 +83,10 @@ transition: transform 0.4s ease;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.schedulebody{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .schedule-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #e6e6e6;
     padding: 15px;
     border-radius: 8px;
