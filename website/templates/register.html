@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+    <form action="/register" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" 
+        id="name" 
+        name="name"
+        class="form-control"
+        placeholder="Please enter your name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" 
+        id="email" 
+        name="email"
+        class="form-control"
+        placeholder="Please enter your email"><br>
+
+        <label for="position">Preferred Position:</label><br>
+        <select id="position" 
+        name="position"
+        class="form-control">
+            <option value="PG">Point Guard</option>
+            <option value="SG">Shooting Guard</option>
+            <option value="SF">Small Forward</option>
+            <option value="PF">Power Forward</option>
+            <option value="C">Center</option>
+        </select><br>
+                
+        <input type="submit" value="register">
+    </form>
+
+{% endblock %}
