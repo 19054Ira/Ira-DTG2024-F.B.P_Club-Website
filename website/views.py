@@ -1,12 +1,11 @@
 from flask import Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
-from .models import Note
+from .models import Note, Player
 from .import db
 import json
 views = Blueprint('views', __name__)
  
 @views.route('/')
-@login_required
 def home():
     return render_template("home.html", user=current_user)
 
@@ -36,5 +35,55 @@ def delete_note():
             db.session.commit()
 
     return jsonify({})
-    
+
+@views.route('/article1')   
+def article1():
+    return render_template("article1.html", user=current_user)
+
+@views.route('/article2')   
+def article2():
+    return render_template("article2.html", user=current_user)
+
+@views.route('/article3')   
+def article3():
+    return render_template("article3.html", user=current_user)
+
+@views.route('/schedule')   
+def schedule():
+    return render_template("schedule.html", user=current_user)
+
+
+@views.route('/register', methods=['GET', 'POST'])
+@login_required
+def register():
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        position = request.form['position']  
+
+        if len(name) < 1:
+            flash('Please enter your name.', category='error')
+        elif len(email) < 1:
+            flash('Please enter your email.', category='error')
+        elif len(position) < 1:
+            flash('Please enter your position.', category='error')
+        else:
+            player = Player(name=name, email=email, position=position)
+            db.session.add(player)
+            db.session.commit()
+            flash('Registration sent!', category='success')
+            
+    return render_template('register.html', user=current_user)
+
+
+
+
+
+
+
+
+
+
+
+
 
